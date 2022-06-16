@@ -1,10 +1,11 @@
+export type StateType =Array<TaskType>
 
-export type TodoListTaskType={
-  id: string
-  title: string
-  isDone:boolean
+
+export type TaskType={
+  id:string
+  task: string
+  completed: boolean
 }
 
-export type DataTasksType = Array<TodoListTaskType>
+export type FilterType= 'all' | 'completed' | 'active'
 
-export type FilterType= 'all' | 'new'  | 'completed'

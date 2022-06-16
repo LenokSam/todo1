@@ -1,0 +1,10 @@
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
+.checked{
+  display: flex;
+  flex-direction: row;
+  opacity: 20%;
+}
